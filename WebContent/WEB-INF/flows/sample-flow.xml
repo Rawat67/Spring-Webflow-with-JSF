@@ -10,6 +10,7 @@
 
     <view-state id="nextPage" view="next.xhtml">
         <transition on="finish" to="end" />
+        <transition on="start" to="start" />
     </view-state>
 
     <end-state id="end" />
